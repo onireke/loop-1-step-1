@@ -1,0 +1,94 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+}
+
+*, *:before, *:after{
+    box-sizing: border-box;
+}
+
+
+body{
+    background: #7a9bcf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+
+main{
+    background: white;
+    width: 60%;
+    height: auto;
+    border-radius: 8px; 
+    display: flex; 
+    justify-content: space-between;  
+    align-items: flex-start;
+    padding: 0 2rem;
+}
+
+.item{
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 90%;
+    font-size: 1rem;
+    width: 15rem;
+    cursor: pointer;
+    
+}
+.item:hover{
+    background:lightgray;
+}
+
+.item img{
+    height: 4rem;
+    width: 5rem;
+    margin-bottom: 1rem;
+  
+}
+
+.name{
+    text-transform: uppercase;
+    color: #4d67d1;
+    font-weight: bold;  
+    margin-bottom: 0;
+}
+
+.description{
+    color: #a19c9e;
+    font-size: 0.95rem;
+}
+
+
+.price{
+    color: #4f66d3;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.currency{
+    margin-top: 00.3rem;
+    font-size: 0.7rem;
+
+}
+
+.amount{
+    font-weight: 600;
+    font-size: 2rem;
+
+}
+
+.duration{
+    align-self: flex-end;
+    margin-bottom: 0.3rem;
+    font-size: 0.8rem;
+}
+
+
